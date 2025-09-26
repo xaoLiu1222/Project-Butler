@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+
+        function encrypt(data){
+            // AES.encrypt("")
+            return "asdf"
+        }
+
+        function a() {
+            let gf = "高圆圆"
+            console.log("a功能")
+            b()
+        }
+        function b() {
+            let gf = "刘亦菲"
+            let data = {
+                pn:1
+            }
+            let enc_data = encrypt(data)
+            console.log("b功能")
+            c(enc_data)
+        }
+
+        function c(enc_data) {
+             let gf = "波多野结衣"
+            console.log("c功能")
+            d(enc_data)
+        }
+
+        function d(enc_data) {
+            let gf = "橘梨纱"
+            // 发射
+            console.log("d功能：发射请求，数据",enc_data)
+        }
+        a()
+    </script>
+</head>
+<body>
+
+</body>
+</html>
